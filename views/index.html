@@ -1,0 +1,12 @@
+<div class="content content-width">
+    <h1 class="content__heading">
+        Список дел на сегодня
+    </h1>
+    <div class="tasks-list tasks-list_bordered">
+        <% tasks.map(task => { %>
+            <div class="tasks-list__list-item tasks-list__list-item_bordered">
+                <%= task.name %>
+            </div>
+        <% }); %>
+    </div>
+</div>

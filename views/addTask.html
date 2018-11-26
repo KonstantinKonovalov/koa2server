@@ -1,0 +1,26 @@
+<div class="content content-width">
+    <div class="tasks">
+        <h2 class="tasks-title">
+            Добавить новое дело
+        </h2>
+        <form action="/add-task" method="POST" class="tasks-form">
+            <input
+                type="text"
+                name="taskName"
+                placeholder="Добавить новое дело"
+                class="tasks-form__input"
+            >
+            <div class="tasks-form-buttons">
+                <button
+                    type="submit"
+                    class="tasks-form-buttons__button tasks-form-buttons__button_submit"
+                >
+                    Добавить
+                </button>
+                <a href="/" class="tasks-form-buttons__button tasks-form-buttons__button_cancel">
+                    Отмена
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
